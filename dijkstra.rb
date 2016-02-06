@@ -70,3 +70,4 @@ end
  
 # d  = Dijkstra.new(matrix, 1)
 # d.dijkstra
+# rspec --color --format documentation spec/dijkstra_spec.rb
