@@ -61,15 +61,15 @@ class Dijkstra
 end
 
 # sample data from wikipedia
-matrix = [
-    [0, 7, 9, 0, 0, 14],
-    [7, 0, 10, 15, 0, 0],
-    [9, 10, 0, 11, 0, 2],
-    [0, 15, 11, 0, 6, 0],
-    [0, 0, 0, 6, 0, 9],
-    [14, 0, 2, 0, 9, 0]
-    ]
+# matrix = [
+#     [0, 7, 9, 0, 0, 14],
+#     [7, 0, 10, 15, 0, 0],
+#     [9, 10, 0, 11, 0, 2],
+#     [0, 15, 11, 0, 6, 0],
+#     [0, 0, 0, 6, 0, 9],
+#     [14, 0, 2, 0, 9, 0]
+#     ]
  
-d  = Dijkstra.new(matrix, 0)
-d.dijkstra
+# d  = Dijkstra.new(matrix, 0)
+# d.dijkstra
 # rspec --color --format documentation spec/dijkstra_spec.rb
