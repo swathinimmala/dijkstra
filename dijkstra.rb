@@ -29,10 +29,10 @@ class Dijkstra
   end
 
   def set_default_values
-  	distance = @matrix[@src]
-  	distance[@src] = 0
-  	visited = Array.new(@v) {|i| i=false }
-  	visited[@src] = true
+  	distance = @matrix[@src]  # initialize distance array to the source row from matrix
+  	distance[@src] = 0  # distance from source to source is 0
+  	visited = Array.new(@v) {|i| i=false }  # no nodes are visited
+  	visited[@src] = true # only the source row is marked visited
   	return distance, visited
   end
   
